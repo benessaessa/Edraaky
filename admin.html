@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <link href='lib/main.css' rel='stylesheet' />
+    <script src='lib/main.js'></script>
+    <script src='js/theme-chooser.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Admin</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg py-3 navbar-dark bg-info">
+        <a class="navbar-brand font-weight-bold" href="#">
+            Edraaky
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav text-center mx-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="admin.html"><i class="fa fa-edit"></i> Admin </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><i class="fa fa-user-md"></i> Doctors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-envelope"></i> Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="container-fluid px-4 py-4">
+      <h3 class="text-center"> Welcome to Admin portal</h3>
+      <div class="row newRow pt-4">
+          <div class="col-lg-3 col-12">
+              <div class="form-group">
+                <label>Sections</label>
+                <select class="form-control">
+                  <option>Hepatology</option>
+                  <option>Hematology</option>
+                  <option>Geriatrics</option>
+                  <option>Gastroenterology</option>
+                  <option>Endocrinology</option>
+                </select>
+              </div>
+              <label>Doctors</label>
+              <ul class="list-group pb-3">
+                <a href="#" class="list-group-item list-group-item-action list-group-item-primary">
+                    <img src="images/login.jpg" class="adminDoctor">  Dr. Mohamed Essa
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">
+                    <img src="images/avatar.jpg" class="adminDoctor">  Dr. Ayman Mostafa
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+                    <img src="images/heart.jpg" class="adminDoctor">  Dr. Abdallah Anwar
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-danger">
+                    <img src="images/doctorF.jpg" class="adminDoctor">  Dr. Shimaa Salem
+                </a>
+                <a href="#" class="list-group-item list-group-item-action list-group-item-warning">
+                    <img src="images/doct.jpg" class="adminDoctor">  Dr. Khadeja Ahmed
+                </a>
+                
+              </ul>
+          </div>
+          <div class="col-lg-9 col-12">
+            <img src="images/new.jpg" class="imgAdmin mx-auto">
+          </div>
+      </div>
+    </div>
+      
+    <div id='calendar-container'>
+        <div id='external-events'>
+            <p class="pt-2">
+              <strong> My Events</strong>
+            </p>
+          
+            <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+              <div class='fc-event-main'>My Event 1</div>
+            </div>
+            <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+              <div class='fc-event-main'>My Event 2</div>
+            </div>
+            <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+              <div class='fc-event-main'>My Event 3</div>
+            </div>
+            <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+              <div class='fc-event-main'>My Event 4</div>
+            </div>
+            <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+              <div class='fc-event-main'>My Event 5</div>
+            </div>
+            <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+              <div class='fc-event-main'>My Event 6</div>
+            </div>
+            <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
+              <div class='fc-event-main'>My Event 7</div>
+            </div>
+          
+            <p class="txtFont">
+              <input type='checkbox' id='drop-remove' />
+              <label for='drop-remove'>remove after drop</label>
+            </p>
+        </div>
+        <div id='calendar'></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/file.js"></script>
+</body>
+
+</html>

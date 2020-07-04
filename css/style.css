@@ -1,0 +1,88 @@
+.logIn{
+    box-shadow: 0 0 6px 0 rgba(3,3,3,0.1);
+    background-color: white;
+    border-radius: 0px;
+}
+.logIn .form-control{
+    height: 3rem;
+}
+.btnEye:focus{
+    box-shadow: none;
+}
+.btnEye .fa{
+    color: rgb(145, 2, 211);
+}
+.btnLogin{
+    background-color: rgb(206, 41, 41);
+    color: white;
+}
+.btnLogin:hover{
+    background-color: white;
+    color: rgb(206, 41, 41);
+    border-color: rgb(206, 41, 41);
+}
+.imgLog{
+    height: 12rem;
+    width: 100%;
+    object-fit: cover;
+}
+.sectionLogin{
+    background: url(../images/bg.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.txtFont{
+    padding-top: 13px;
+    font-size: 13px;
+}
+/* --------------------- calendar ---------------------------- */
+#external-events {
+    position: absolute;
+    z-index: 2;
+    left: -180px;
+    width: 165px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+  }
+  
+  #external-events .fc-event {
+    cursor: move;
+    margin: 3px 0;
+  }
+  
+  #calendar-container {
+    position: relative;
+    z-index: 1;
+    margin-left: 200px;
+  }
+  
+#calendar {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+.imgAdmin{
+    height: 24.5rem;
+    width: 100%;
+    object-fit: cover;
+}
+label{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+}
+.txtFont label{
+    font-size: 12px;
+}
+.adminDoctor{
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+@media screen and (max-width:500px){
+    .newRow .col-12{
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
