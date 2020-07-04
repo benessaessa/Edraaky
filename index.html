@@ -11,6 +11,7 @@
     <link href='lib/main.css' rel='stylesheet' />
     <script src='lib/main.js'></script>
     <script src='js/theme-chooser.js'></script>
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Doctor Appointment</title>
 </head>
@@ -42,32 +43,32 @@
       <h3>Welcome Dr Mohamed Essa </h3>
     </div>
       
-    <div id='calendar-container'>
+    <div id='calendar-container' class="wow zoomIn" data-wow-duration="1s" data-wow-delay=".25s">
         <div id='external-events'>
             <p class="pt-2">
-              <strong> My Events</strong>
+              <strong> My Appointments</strong>
             </p>
           
             <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
-              <div class='fc-event-main'>My Event 1</div>
+              <div class='fc-event-main'> Doctor Ahmed</div>
             </div>
             <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
-              <div class='fc-event-main'>My Event 2</div>
+              <div class='fc-event-main'>Doctor Moustafa</div>
             </div>
             <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
-              <div class='fc-event-main'>My Event 3</div>
+              <div class='fc-event-main'>Doctor Shimaa</div>
             </div>
             <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
-              <div class='fc-event-main'>My Event 4</div>
+              <div class='fc-event-main'>Doctor Asmaa</div>
             </div>
             <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
-              <div class='fc-event-main'>My Event 5</div>
+              <div class='fc-event-main'>Doctor Sara</div>
             </div>
             <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
-              <div class='fc-event-main'>My Event 6</div>
+              <div class='fc-event-main'>Doctor Sayed</div>
             </div>
             <div class='fc-event fc-h-event fc-daygrid-event fc-daygrid-block-event'>
-              <div class='fc-event-main'>My Event 7</div>
+              <div class='fc-event-main'>Doctor Bahaa</div>
             </div>
           
             <p class="txtFont">
@@ -81,6 +82,8 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init(); </script>
     <script src="js/file.js"></script>
 </body>
 
